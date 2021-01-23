@@ -5,8 +5,8 @@
   "author": "iwato",
   "license": "MIT",
   "scripts": {
-    "lint": "prettier './**/*.{js,ts}' && eslint './**/*.{js,ts}'",
-    "lintfix": "prettier --write './**/*.{js,ts}' && eslint --fix './**/*.{js,ts}'"
+    "lint": "prettier './src/**/*.{js,ts}' && eslint './src/**/*.{js,ts}'",
+    "lintfix": "prettier --write './src/**/*.{js,ts}' && eslint --fix './src/**/*.{js,ts}'"
   },
   "dependencies": {
     "@google/clasp": "^2.3.0",
