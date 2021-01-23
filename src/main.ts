@@ -1,10 +1,10 @@
 function doGet() {
-    const result = { sample: 'sample' }
+    const result = { sample: 'sampleGet' }
     return returnJson(result)
 }
 
 function doPost() {
-    const result = { sample: 'sample' }
+    const result = { sample: 'samplePost' }
     return returnJson(result)
 }
 
